@@ -1,0 +1,7 @@
+I selected a repository from the New York Times called campaign finance. This title stood out to me while the other names were somewhat hard to understand. The repository includes a "loader file" and it appears that NYT has scraped data from the Federal Election Commission site. There are spreadsheets inside the fields folder. There aren't numbers in the CSV files as one might expect, but there appears to be key words or acronyms for the terms given in the spreadsheet. There is also a folder that contains scraped information from the FEC website. The scraped fie contains some commands that remind me of query writing in SQLite and that is probably the reason the CSV files are a collection of field names like the ones you see in SQLite. There are “IF”, “SELECT“, “WHERE” statements, which I assume are used to navigate through data downloaded from the FEC website. This could also suggest that NYT has created their own database of data from the FEC website. 
+
+Here’s an example of a query using SELECT: 
+"select * from filing where filing_id = {}".format(filing_id))
+
+The loader file shows lines of code, which I think are instructions for loading the programs in Python. This file tells you what imports are needed or what has already been imported. Using specific commands, it seems as if they can create new fields or tables as well. 
+# github_assignment.txt
